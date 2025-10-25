@@ -2,6 +2,8 @@
 node_modules/
 dist/
 build/
+.vite/
+.vite-temp/
 .cache/
 .tmp/
 *.log
@@ -14,6 +16,6 @@ Thumbs.db
 # Env files
 .env*
 !.env.example
-README.md
-# Local-only docs (do not upload to GitHub)
-docs/
+
+# Do not include subproject directory in this repo
+chatgpt/

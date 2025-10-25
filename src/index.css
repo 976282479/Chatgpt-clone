@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global theme backgrounds for full-screen mapping */
+html.theme-dark, body.theme-dark {
+  background: radial-gradient(1000px 600px at 50% 0%, #1b1037 0%, #0f0c29 40%, #0b0b12 100%) fixed;
+  color: #fff;
+}
+html.theme-ocean, body.theme-ocean {
+  background: linear-gradient(180deg, #0ea5e9 0%, #0369a1 50%, #0c4a6e 100%) fixed;
+}
+
+/* Ensure root takes full height so background is visible */
+html, body, #root {
+  min-height: 100vh;
+}
